@@ -4,7 +4,7 @@ MS Data Science & Research @ Columbia, with the Advanced Master's Research exten
 
 I study how language models communicate through hidden states, drawing on information theory.
 
-- **CacheBack / RCLC** — receiver-conditioned latent communication: the receiver tells the sender what it needs, and CacheBack selects relevant KV-cache states without training. First-author preprint. [Paper](https://arxiv.org/abs/2609.32046) · [Code](https://github.com/maxr0ssi/rclc)
+- **CacheBack / RCLC** — agent communication in latent space, guided by what the receiver needs. The receiver sends a small internal query to the sending agents, which use it to select what to send back. [Paper](https://arxiv.org/abs/2609.32046) · [Code](https://github.com/maxr0ssi/rclc)
 
 - **Latent Cache Flow** — model-to-model communication without text. Co-first-author paper at the ICML 2026 Adapt-FM workshop. [Paper](https://arxiv.org/abs/2605.22863)
 
